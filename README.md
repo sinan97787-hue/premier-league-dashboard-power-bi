@@ -32,12 +32,14 @@ IF(
 ---
 ```
 ### **Clean Sheet** 
+```DAX
 Clean_Sheet =
 IF(Matches[Goals_Against] = 0, 1, 0)
 
 ```
 ```
 ### **Goal Difference**
+```DAX 
 Goal_Difference =
 Matches[Goals_For] - Matches[Goals_Against]
 
