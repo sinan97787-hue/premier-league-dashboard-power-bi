@@ -29,10 +29,9 @@ IF(
        "Draw"
     )
 )
-
 ---
-
 ### ✔️ Clean Sheet Flag
+```DAX
 Flags matches where the team conceded 0 goals:
 
 ```DAX
