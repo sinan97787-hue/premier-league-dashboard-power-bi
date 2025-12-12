@@ -31,9 +31,10 @@ Goals per 90 =
 DIVIDE ( 'PL Data'[Goals], 'PL Data'[Appearances] ) * 90
 
 Discipline Score =
-'PL Data'[Yellow cards] + 3 * 'PL Data'[Red cards]
+'PL Data'[Yellow cards] + 3 * 'PL Data'[Red cards].
 
 -- CORE TOTALS
+```DAX
 
 Total Goals :=
 SUM ( 'PL Data'[Goals] )
