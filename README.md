@@ -30,6 +30,8 @@ IF(
     )
 )
 
+---
+
 ### ✔️ Clean Sheet Flag
 Flags matches where the team conceded 0 goals:
 
