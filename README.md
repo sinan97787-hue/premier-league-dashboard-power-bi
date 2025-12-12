@@ -2,6 +2,10 @@
 A complete analytics dashboard built in **Power BI** to visualize Premier League match statistics, team performance, and season-based KPIs.
 
 ---
+## **Dashboard Preview**
+
+<img width="1368" height="777" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/116edbab-fe4a-43ec-96d6-4ac027b0e34b" />
+
 
 ## 📊 Features
 - Total Wins / Draws / Losses
@@ -64,14 +68,19 @@ Goals_Conceded =
 SUM(Matches[Goals_Against])
 ```
 ## **Power query steps**
-```
--Import Matches and Teams tables from CSV.
 
--Transform columns: date formatting, text cleanup, numeric conversion.
+- Import Matches and Teams tables from CSV.
 
--Merge tables if needed for team-related info.
+- Transform columns: date formatting, text cleanup, numeric conversion.
 
--Create calculated columns and measures using DAX.
-```
+- Merge tables if needed for team-related info.
+
+- Create calculated columns and measures using DAX.
+
+## **Author**
+
+- Muhammed Sinan
+- email:sinan97787@gmail.com
+- connect with me on linkedIn :https://www.linkedin.com/in/sinan-p/
 
 
