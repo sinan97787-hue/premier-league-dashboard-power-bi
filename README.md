@@ -31,13 +31,13 @@ IF(
 )
 ---
 ```
-### Clean Sheet 
+### **Clean Sheet** 
 Clean_Sheet =
 IF(Matches[Goals_Against] = 0, 1, 0)
 
----
 ```
-### Goal Difference
+```
+### **Goal Difference**
 Goal_Difference =
 Matches[Goals_For] - Matches[Goals_Against]
 
