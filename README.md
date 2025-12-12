@@ -32,3 +32,26 @@ DIVIDE ( 'PL Data'[Goals], 'PL Data'[Appearances] ) * 90
 
 Discipline Score =
 'PL Data'[Yellow cards] + 3 * 'PL Data'[Red cards]
+
+-- CORE TOTALS
+
+Total Goals :=
+SUM ( 'PL Data'[Goals] )
+
+Total Wins :=
+SUM ( 'PL Data'[Wins] )
+
+Total Losses :=
+SUM ( 'PL Data'[Losses] )
+
+Total Appearances :=
+SUM ( 'PL Data'[Appearances] )
+
+Total Clean Sheets :=
+SUM ( 'PL Data'[Clean sheets] )
+
+Total Yellow Cards :=
+SUM ( 'PL Data'[Yellow cards] )
+
+Total Red Cards :=
+SUM ( 'PL Data'[Red cards] )
