@@ -42,10 +42,36 @@ IF(Matches[Goals_Against] = 0, 1, 0)
 Goal_Difference =
 Matches[Goals_For] - Matches[Goals_Against]
 ```
-### ** Goal Scored **
+### **Goal Scored**
 ```DAX
 Goals_Scored =
 SUM(Matches[Goals_For])
+```
+### **Total Points**
+```DAX
+Total_Points =
+SUMX(Matches,
+    SWITCH(Matches[Result],
+        "Win", 3,
+        "Draw", 1,
+        "Loss", 0
+    )
+)
+```
+### **Goal conceded**
+```DAX
+Goals_Conceded =
+SUM(Matches[Goals_Against])
+```
+## **Power query steps**
+```
+-Import Matches and Teams tables from CSV.
+
+-Transform columns: date formatting, text cleanup, numeric conversion.
+
+-Merge tables if needed for team-related info.
+
+-Create calculated columns and measures using DAX.
 ```
 
 
