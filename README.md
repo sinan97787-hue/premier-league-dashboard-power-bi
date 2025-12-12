@@ -97,6 +97,15 @@ DIVIDE(
     0
 )
 ---
+# 🔧 Power Query Steps
+- Removed duplicate rows  
+- Cleaned null & inconsistent values  
+- Reformatted date columns  
+- Standardized club names  
+- Extracted Year & Month  
+- Split Name & Country columns  
+- Filtered dataset: 1970–2018  
+- Loaded fact & dimension tables  
 
 
 
